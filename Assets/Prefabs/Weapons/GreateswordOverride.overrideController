@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GreateswordOverride
+  m_Controller: {fileID: 9100000, guid: 741e6aba33766344da3700fb208b5ea9, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: cb29039e07040f8449518d18c45757b2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c7e22a6ce37d45942a3141f0ba5fbf89, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5fc2f27b55f806e40ba1d14c12f7c608, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d0efdb0897bd27044a9c1386f2135a43, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 18922bc3ff696bb4f8b45b96c17f6356, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2a724431de31ead4ea96218a66166890, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a12475f47aa5c1946a518ba09e48bd81, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f52c08e985ac28d49badefdcc6e93e5c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6f3185499ae59eb4f9a5ed3b9c4be23b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 22055e371c4f21c4c860980fa38189e6, type: 2}

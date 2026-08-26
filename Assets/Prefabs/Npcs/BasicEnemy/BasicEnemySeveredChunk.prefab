@@ -1,0 +1,325 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4859987339661989512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1511941832784852404}
+  - component: {fileID: 5382969004892974210}
+  - component: {fileID: 7122906709966725139}
+  - component: {fileID: 2481338549111303246}
+  - component: {fileID: 6023296507708062775}
+  m_Layer: 8
+  m_Name: BasicEnemySeveredChunk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1511941832784852404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4859987339661989512}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3921541384783565008}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5382969004892974210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4859987339661989512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be71d31573db038439f852a4ee7abb95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EntityType: 1
+  Team: Enemy
+  Name: Severed Chunk
+  Level: 1
+  MaxHealth: 625
+  Health: 625
+  damageCooldown: 0
+  MaxStamina: 100
+  Stamina: 100
+  staminaRegenSpeed: 50
+  staminaRegenDelay: 2
+  staminaDelayTime: 0
+  StaggerRequirement: 999999
+  staggerDamageTaken: 0
+  staggerCooldown: 1
+  staggerDuration: 1
+  ImpalementImmune: 0
+  Staggered: 0
+  Impaled: 0
+  DashImmunity: 0
+  severenceDamageRequirement: 999999
+  severenceDamageTaken: 0
+  charMovement: {fileID: 0}
+  meleeWeapon: {fileID: 0}
+  entityGun: {fileID: 0}
+  CorpseObject: {fileID: 0}
+  corpseHealth: 1000
+  CorpseTopObject: {fileID: 0}
+  corpseTopHealth: 600
+  CorpseBottomObject: {fileID: 0}
+  corpseBottemHealth: 750
+  SeveredChunkObject: {fileID: 0}
+  severedChunkHealth: 600
+  Body: {fileID: 3921541384783565008}
+  rigidBody: {fileID: 7122906709966725139}
+  hitEffects: []
+  nameText: {fileID: 0}
+  InstantHealthBar: {fileID: 0}
+  DelayedHealthBar: {fileID: 0}
+  InstantStaminaBar: {fileID: 0}
+  DelayedStaminaBar: {fileID: 0}
+  BuffBar: {fileID: 0}
+  displayBasicDebuffs: 0
+  healthBarDeathEffect: {fileID: 0}
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDamageTaken:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAttackDodged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStagger:
+    m_PersistentCalls:
+      m_Calls: []
+  OnSevered:
+    m_PersistentCalls:
+      m_Calls: []
+  OnKill:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGunDamageDealt:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStatusApplied:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAbilityCast:
+    m_PersistentCalls:
+      m_Calls: []
+  baseDamageInputMultiplier: 1
+  baseDamageMultiplier: 1
+  baseHealingMultiplier: 1
+  baseAttackSpeedMultiplier: 1
+  baseMovementSpeedMultiplier: 1
+  baseStatusBuildUpMultiplier: 1
+  baseStatusDamageMultiplier: 1
+  baseGunChargeMultiplier: 1
+  baseStaminaEfficiencyMultiplier: 1
+  DamageInputMultiplier: 1
+  DamageMultiplier: 1
+  HealingMultiplier: 1
+  AttackSpeedMultiplier: 1
+  MovementSpeedMultiplier: 1
+  StatusBuildUpMultiplier: 1
+  StatusDamageMultiplier: 1
+  GunChargeMultiplier: 1
+  StaminaEfficiencyMultiplier: 1
+  activeDebuffs:
+  - Applier: {fileID: 0}
+    DebuffName: Soul Touched
+    debuffType: 0
+    transfersToCorpse: 1
+    Duration: 7
+    Damage:
+      DamageType: 0
+      HealthDamage: 0
+      StaggerDamage: 0
+      SeverenceDamage: 0
+      knockbackAmount: 0
+      knockbackDir: {x: 0, y: 0, z: 0}
+      FinalSeverenceDamageMultiplier: 0
+      Multiplier: 0
+      FriendlyFire: 0
+      gunChargeMultiplier: 0
+    TickRate: 0
+    nextTickTime: 0
+    oneTimeEffectActivated: 0
+    debuffEffect: {fileID: 6685944010947436525, guid: 973422b21d5c16e43bb4b8043eacd334, type: 3}
+    instantiatedEffect: {fileID: 0}
+    instantiatedBuffDisplay: {fileID: 0}
+    displayIcon: {fileID: -851397893, guid: 54c28054cb9df9540b64e2664ed30317, type: 3}
+    debuffDamageInputMultiplier: 0
+    debuffDamageMultiplier: 0
+    debuffHealingMultiplier: 0
+    debuffAttackSpeedMultiplier: 0
+    debuffMovementSpeedMultiplier: 0
+    debuffStatusBuildUpMultiplier: 0
+    debuffStatusDamagemultiplier: 0
+    debuffGunChargeMultiplier: 0
+    debuffStaminaEfficiencyMultiplier: 0
+  timeSinceDirectDamageTaken: 0
+--- !u!54 &7122906709966725139
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4859987339661989512}
+  serializedVersion: 4
+  m_Mass: 7
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!65 &2481338549111303246
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4859987339661989512}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.525, y: 0.62500006, z: 0.45}
+  m_Center: {x: 0, y: 0.17, z: 0.015}
+--- !u!114 &6023296507708062775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4859987339661989512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 4
+  outlineColor: {r: 0.30980393, g: 0, b: 0, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!1 &5877473675704791323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3921541384783565008}
+  - component: {fileID: 7681845538475663024}
+  - component: {fileID: 8831737925965856587}
+  m_Layer: 8
+  m_Name: LowerBody
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3921541384783565008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5877473675704791323}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1511941832784852404}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &7681845538475663024
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5877473675704791323}
+  m_Mesh: {fileID: -7724367915533706273, guid: 5ef11c39a8955674f8a1f39ad5f86198, type: 3}
+--- !u!23 &8831737925965856587
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5877473675704791323}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0439d21bea90b744395818a822600635, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
