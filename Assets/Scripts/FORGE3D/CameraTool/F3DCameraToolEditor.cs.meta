@@ -15,5 +15,5 @@ AssetOrigin:
   productId: 23180
   packageName: Camera Tool
   packageVersion: 1.1
-  assetPath: Assets/FORGE3D/CameraTool/F3DCameraToolEditor.cs
+  assetPath: Assets/Scripts/FORGE3D/CameraTool/F3DCameraToolEditor.cs
   uploadId: 127897

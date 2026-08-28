@@ -62,5 +62,5 @@ AssetOrigin:
   productId: 23180
   packageName: Camera Tool
   packageVersion: 1.1
-  assetPath: Assets/FORGE3D/CameraTool/Icon/CameraToolIcon32.png
+  assetPath: Assets/Scripts/FORGE3D/CameraTool/Icon/CameraToolIcon32.png
   uploadId: 127897
