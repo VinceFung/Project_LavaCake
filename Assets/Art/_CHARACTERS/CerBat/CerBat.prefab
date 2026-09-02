@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8436943497382792005
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.843
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.856
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.414
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3780842
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.083965994
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9164062
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.1010032
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 14.395
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -135.741
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -4.59
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      propertyPath: m_Name
+      value: CerBat
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3591546308849224270}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2962297443592321703}
+  m_SourcePrefab: {fileID: 100100000, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+--- !u!1 &8779594545618105876 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0747eb049c69c6043868a962f8187117, type: 3}
+  m_PrefabInstance: {fileID: 8436943497382792005}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3591546308849224270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8779594545618105876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c81c4aa1ef742c04a92c0f07b984f457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floatingAnimation:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2.3997638
+      outSlope: 2.3997638
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.25
+      value: 0.4
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 0
+      inSlope: -2.588509
+      outSlope: -2.588509
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.75
+      value: -0.4
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 2.0933638
+      outSlope: 2.0933638
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  moveSpeed: 1
+  rotationSpeed: 0
+  animatePots: 1
+--- !u!95 &2962297443592321703
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8779594545618105876}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9d525857288bf2c42b63a28e0b95694a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
