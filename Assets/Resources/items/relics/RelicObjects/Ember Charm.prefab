@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4906445410390298119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 883149983156617838}
+  - component: {fileID: 8650050632023119560}
+  - component: {fileID: 5656056928500749215}
+  - component: {fileID: 6477142711017089249}
+  m_Layer: 0
+  m_Name: Ember Charm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &883149983156617838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906445410390298119}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8650050632023119560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906445410390298119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51dfe35993e5f244084e25153fdd00c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RelicID: ember_charm
+  owner: {fileID: 0}
+--- !u!114 &5656056928500749215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906445410390298119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60fe6c266c6e536458a723058b90cbd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  relic: {fileID: 8650050632023119560}
+  buildUpOnHit: 10
+  weaponToStatusDmgMultiplier: 0.25
+  debuffToApply: {fileID: 11400000, guid: 570d5c9d4ad83f54998037422fff08ed, type: 2}
+--- !u!114 &6477142711017089249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906445410390298119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 080826cdac2b74e4c97ddbfdf61fb369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  relic: {fileID: 8650050632023119560}
+  explosionEffect: {fileID: 3539209070019702113, guid: acc61959762ccc043be90d4384e063f4, type: 3}
+  statusToDamageMultiplier: 2
+  explosionRadius: 5.4
+  explosionDamage:
+    DamageType: 0
+    HealthDamage: 0
+    StaggerDamage: 0
+    SeverenceDamage: 0
+    knockbackAmount: 32
+    knockbackDir: {x: 0, y: 0, z: 0}
+    FinalSeverenceDamageMultiplier: 1
+    Multiplier: 1
+    FriendlyFire: 0
+    gunChargeMultiplier: 0

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aa4b0ec088e13b4fb155e477582ab85, type: 3}
+  m_Name: elixir_of_sin
+  m_EditorClassIdentifier: 
+  DebuffName: Elixir Of Sin
+  debuffType: 0
+  stackType: 2
+  MaxStacks: 1
+  topDisplay: 1
+  bottomDisplay: 2
+  icon: {fileID: -660774966, guid: 111cb5e75d27e0943b66cae25ff191d1, type: 3}
+  debuffEffect: {fileID: 0}
+  TickRate: 1
+  Damage:
+    DamageType: 0
+    HealthDamage: 0
+    StaggerDamage: 0
+    SeverenceDamage: 0
+    knockbackAmount: 0
+    knockbackDir: {x: 0, y: 0, z: 0}
+    FinalSeverenceDamageMultiplier: 0
+    Multiplier: 0
+    FriendlyFire: 0
+    gunChargeMultiplier: 0
+  Duration: 40
+  transfersToCorpse: 0
+  removedOnRequirementMet: 0
+  damageRequirement: 0
+  debuffDamageInputMultiplier: 0
+  debuffDamageMultiplier: 0.18
+  debuffHealingMultiplier: 0
+  debuffAttackSpeedMultiplier: 0
+  debuffMovementSpeedMultiplier: 0
+  debuffStatusBuildUpMultiplier: 0
+  debuffStatusDamageMultiplier: 0
+  debuffGunChargeMultiplier: 0
+  debuffStaminaEfficiencyMultiplier: 0

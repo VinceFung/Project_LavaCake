@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d702936d79b4e1e40800cb8d1568eb21, type: 3}
+  m_Name: bolt
+  m_EditorClassIdentifier: 
+  itemID: bolt
+  itemType: 0
+  modType: 0
+  itemName: Bolt
+  itemDescription: +10% Electric Status Build Up
+  itemIcon: {fileID: -671314944, guid: a57780e8fb71719429af3a2529661d62, type: 3}
+  itemObject: {fileID: 8069552999936027700, guid: 4d1a53794e81d1942ae6e14ce2a99a86, type: 3}

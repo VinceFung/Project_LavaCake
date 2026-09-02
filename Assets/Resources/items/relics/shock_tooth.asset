@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d702936d79b4e1e40800cb8d1568eb21, type: 3}
+  m_Name: shock_tooth
+  m_EditorClassIdentifier: 
+  itemID: shock_tooth
+  itemType: 1
+  modType: 0
+  itemName: Shock Tooth
+  itemDescription: +10% electricity build up. On electricity debuff applied, gain
+    6% attack speed for 7 seconds and your next attack causes a lightning strike
+  itemIcon: {fileID: 1295508340, guid: 64d0e03b865634a459c84b0cf9c14c7d, type: 3}
+  itemObject: {fileID: 4906445410390298119, guid: f2800b54197b50c4cb02d3ee2c1841df, type: 3}

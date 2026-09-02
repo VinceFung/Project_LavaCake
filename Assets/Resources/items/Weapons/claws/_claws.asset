@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d702936d79b4e1e40800cb8d1568eb21, type: 3}
+  m_Name: _claws
+  m_EditorClassIdentifier: 
+  itemID: _claws
+  itemType: 2
+  modType: 0
+  itemName: Claws
+  itemDescription: 
+  itemIcon: {fileID: -2012675417, guid: f859fc4c29d602246852fc2d80ad2046, type: 3}
+  itemObject: {fileID: 5079095208254442296, guid: d0f1ace1062a78f49bbfbe132dd5c6a6, type: 3}

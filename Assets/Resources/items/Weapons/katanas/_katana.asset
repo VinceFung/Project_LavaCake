@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d702936d79b4e1e40800cb8d1568eb21, type: 3}
+  m_Name: _katana
+  m_EditorClassIdentifier: 
+  itemID: _katana
+  itemType: 2
+  modType: 0
+  itemName: Katana
+  itemDescription: 
+  itemIcon: {fileID: 1337223362, guid: 111cb5e75d27e0943b66cae25ff191d1, type: 3}
+  itemObject: {fileID: 7312957774550995645, guid: 9d824eb5eccfdde40bcad0c30ef28798, type: 3}
